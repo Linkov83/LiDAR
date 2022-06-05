@@ -18,7 +18,7 @@ def load_lottie_url(url: str):
         return None
     return r.json()
 
-st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="LiDAR", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 #https://docs.streamlit.io/library/api-reference/text
 # different forms of text are from that link
 
